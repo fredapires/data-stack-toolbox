@@ -5,7 +5,7 @@ description = ""
 authors = ["Fred Pires <fredapires@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = ">=3.8.10,<4.0"
+python = ">=3.9,<3.12"
 agate = "1.7.1"
 annotated-types = "0.6.0"
 appdirs = "1.4.4"
@@ -78,6 +78,14 @@ urllib3 = "1.26.18"
 wcwidth = "0.2.13"
 zipp = "3.17.0"
 ##
+xlwings = "*"
+openpyxl = "*"
+jupyter = "*"
+ipykernel = "*"
+jupyter-helpers = "*"
+ydata-profiling = "*"
+python-dotenv = "*"
+pyperclip = "*"
 
 [tool.poetry.dev-dependencies]
 

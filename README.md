@@ -63,10 +63,10 @@ Prerequisities: Python >= 3.5
 git clone https://github.com/dbt-labs/jaffle_shop_duckdb.git
 cd jaffle_shop_duckdb
 python3 -m venv venv
-source venv/bin/activate
+source .venv/bin/activate
 python3 -m pip install --upgrade pip
 python3 -m pip install -r requirements.txt
-source venv/bin/activate
+source .venv/bin/activate
 dbt build
 dbt docs generate
 dbt docs serve
@@ -80,10 +80,10 @@ dbt docs serve
 git clone https://github.com/dbt-labs/jaffle_shop_duckdb.git
 cd jaffle_shop_duckdb
 python3 -m venv venv
-source venv/bin/activate.fish
+source .venv/bin/activate.fish
 python3 -m pip install --upgrade pip
 python3 -m pip install -r requirements.txt
-source venv/bin/activate.fish
+source .venv/bin/activate.fish
 dbt build
 dbt docs generate
 dbt docs serve
@@ -97,10 +97,10 @@ dbt docs serve
 git clone https://github.com/dbt-labs/jaffle_shop_duckdb.git
 cd jaffle_shop_duckdb
 python3 -m venv venv
-source venv/bin/activate.csh
+source .venv/bin/activate.csh
 python3 -m pip install --upgrade pip
 python3 -m pip install -r requirements.txt
-source venv/bin/activate.csh
+source .venv/bin/activate.csh
 dbt build
 dbt docs generate
 dbt docs serve
@@ -114,10 +114,10 @@ dbt docs serve
 git clone https://github.com/dbt-labs/jaffle_shop_duckdb.git
 cd jaffle_shop_duckdb
 python3 -m venv venv
-venv/bin/Activate.ps1
+.venv/bin/Activate.ps1
 python3 -m pip install --upgrade pip
 python3 -m pip install -r requirements.txt
-venv/bin/Activate.ps1
+.venv/bin/Activate.ps1
 dbt build
 dbt docs generate
 dbt docs serve
@@ -231,10 +231,10 @@ To get up and running with this project:
 
     ```shell
     python3 -m venv venv
-    source venv/bin/activate
+    source .venv/bin/activate
     python3 -m pip install --upgrade pip
     python3 -m pip install -r requirements.txt
-    source venv/bin/activate
+    source .venv/bin/activate
     ```
     </details>
 
@@ -243,10 +243,10 @@ To get up and running with this project:
 
     ```shell
     python3 -m venv venv
-    source venv/bin/activate.fish
+    source .venv/bin/activate.fish
     python3 -m pip install --upgrade pip
     python3 -m pip install -r requirements.txt
-    source venv/bin/activate.fish
+    source .venv/bin/activate.fish
     ```
     </details>
 
@@ -255,10 +255,10 @@ To get up and running with this project:
 
     ```shell
     python3 -m venv venv
-    source venv/bin/activate.csh
+    source .venv/bin/activate.csh
     python3 -m pip install --upgrade pip
     python3 -m pip install -r requirements.txt
-    source venv/bin/activate.csh
+    source .venv/bin/activate.csh
     ```
     </details>
 
@@ -267,10 +267,10 @@ To get up and running with this project:
 
     ```shell
     python3 -m venv venv
-    venv/bin/Activate.ps1
+    .venv/bin/Activate.ps1
     python3 -m pip install --upgrade pip
     python3 -m pip install -r requirements.txt
-    venv/bin/Activate.ps1
+    .venv/bin/Activate.ps1
     ```
     </details>
 
@@ -325,7 +325,7 @@ To get up and running with this project:
     Then I ran all the steps to create a virtual environment and install the requirements of our DuckDB-based Jaffle Shop repo:
     ```shell
     $ python3 -m venv venv
-    $ source venv/bin/activate
+    $ source .venv/bin/activate
     (venv) $ python3 -m pip install --upgrade pip
     (venv) $ python3 -m pip install -r requirements.txt
     ```
@@ -333,7 +333,7 @@ To get up and running with this project:
     Let's examine where `dbt` is installed and which version it is reporting:
     ```shell
     (venv) $ which dbt
-    /Users/dbeatty/projects/jaffle_duck/venv/bin/dbt
+    /Users/dbeatty/projects/jaffle_duck/.venv/bin/dbt
     ```
 
     ```shell
@@ -353,7 +353,7 @@ To get up and running with this project:
 
     So let's reactivate the virtual environment and try again...
     ```shell
-    (venv) $ source venv/bin/activate
+    (venv) $ source .venv/bin/activate
     ```
 
     ```shell

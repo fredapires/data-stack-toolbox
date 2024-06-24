@@ -1,9 +1,9 @@
-name: 'jaffle_shop'
+name: 'data_stack_toolbox'
 
 config-version: 2
 version: '0.1'
 
-profile: 'jaffle_shop'
+profile: 'data_stack_toolbox'
 
 model-paths: ["models"]
 seed-paths: ["seeds"]
@@ -24,8 +24,11 @@ seeds:
     node_color: '#cd7f32'
 
 models:
-  jaffle_shop:
+  data_stack_toolbox:
     materialized: table
+    core:
+      +docs:
+        node_color: 'gold'
     staging:
       materialized: view
       +docs:

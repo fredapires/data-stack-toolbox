@@ -87,8 +87,6 @@ ydata-profiling = "*"
 python-dotenv = "*"
 pyperclip = "*"
 apache-airflow = "*"
-apache-superset = "*"
-
 
 [tool.poetry.dev-dependencies]
 

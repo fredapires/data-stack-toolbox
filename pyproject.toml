@@ -19,6 +19,7 @@ cli-helpers = { version = "2.3.1", extras = ["styles"] }
 click = "8.1.7"
 colorama = "0.4.6"
 configobj = "5.0.8"
+dbt = "*"
 dbt-core = ">=1.7.9"
 dbt-duckdb = ">=1.7.3"
 dbt-extractor = ">=0.5.1"

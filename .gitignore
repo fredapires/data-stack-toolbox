@@ -1,8 +1,8 @@
 
-target/
-dbt_packages/
-dbt_modules/
-logs/
+apps/dbt/target/
+apps/dbt/dbt_packages/
+apps/dbt/dbt_modules/
+apps/dbt/logs/
 **/.DS_Store
 .user.yml
 .venv/
@@ -10,3 +10,4 @@ env/
 **/*.duckdb
 **/*.duckdb.wal
 *.lock
+.env

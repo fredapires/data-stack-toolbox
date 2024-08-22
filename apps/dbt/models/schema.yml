@@ -1,17 +1,1 @@
 version: 2
-
-models:
-  - name: core
-    description: 'Core data models'
-    meta:
-      +schema: core
-    materialized: table
-    +docs:
-      node_color: 'gold'
-  - name: staging
-    description: 'Staging data models'
-    meta:
-      +schema: staging
-    materialized: view
-    +docs:
-      node_color: 'bronze'

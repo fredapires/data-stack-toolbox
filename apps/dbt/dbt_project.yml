@@ -1,9 +1,8 @@
-name: 'data_stack_toolbox'
-
+name: data_stack_toolbox
+version: '1.0'
 config-version: 2
-version: '0.1'
 
-profile: 'data_stack_toolbox'
+profile: data_stack_toolbox
 
 model-paths: ["models"]
 seed-paths: ["seeds"]

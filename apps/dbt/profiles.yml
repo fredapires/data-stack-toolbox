@@ -1,8 +1,7 @@
 data_stack_toolbox:
-
   target: dev
   outputs:
     dev:
       type: duckdb
-      path: 'data_stack_toolbox.duckdb'
+      path: '../../data/data-duckdb'
       threads: 24

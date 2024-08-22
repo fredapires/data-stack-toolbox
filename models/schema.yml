@@ -8,13 +8,6 @@ models:
     materialized: table
     +docs:
       node_color: 'gold'
-  - name: intermediate
-    description: 'Intermediate data models'
-    meta:
-      +schema: intermediate
-    materialized: view
-    +docs:
-      node_color: 'silver'
   - name: staging
     description: 'Staging data models'
     meta:
@@ -22,5 +15,3 @@ models:
     materialized: view
     +docs:
       node_color: 'bronze'
-  +docs:
-    node_color: 'gold'
